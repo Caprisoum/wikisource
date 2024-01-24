@@ -1,0 +1,40 @@
+ .page-header {
+        text-align: center;
+        background-image: url('img/Antique2.png');
+        background-size: cover;
+        background-position: 0% ;
+        background-attachment: fixed;
+        color: #fbfbfb;
+        padding: 50px;
+    }
+
+.top-bar {
+    background-color: #f1f1f1; 
+    padding: 10px; 
+}    
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-list ul {
+    padding: 0;
+}
+
+.nav-list li {
+    list-style: none;
+    margin-bottom: 10px; 
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 8px 30px;
+    color: rgba(0, 0, 0, 0.467);
+    transition: background-color 0.5s ease;
+}
+
+.nav-list a:hover {
+    background-color: rgba(0, 0, 0, 0.184);
+}

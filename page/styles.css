@@ -1,0 +1,94 @@
+:root {
+  --sidebar-width: 350px;
+}
+
+.main {
+  text-align: center;
+  background-image: url('img/Antique.jpg');
+  background-size: cover;
+  background-position: center top 20%;
+  color: rgba(0, 0, 0, 0.947);
+  background-color: #d7d4d4;
+  width: auto;
+  height: 200px;
+  border: 10px solid black;
+  border-radius: 5px;
+}
+
+.page {
+  background-color: rgb(197, 187, 187);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: calc(-1 * var(--sidebar-width));
+  width: var(--sidebar-width);
+  height: 100%;
+  background-color: #333;
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  background-color: rgb(128, 128, 128);
+}
+
+.sidebar.visible {
+  left: 0; /* Barre latérale visible */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar li {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%);
+  left: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1; 
+  color: #333;
+  transition: left 0.3s ease;
+}
+
+.sidebar.visible ~ .toggle-btn {
+  transform: translate(0);
+  left: var(--sidebar-width);
+  transition: left 0.3s ease, transform 0.5s ease-in-out;
+}
+
+.vertical-line {
+  height: 0vh;
+  border: 1px solid #333;
+}
+
+.chapter {
+  text-align: center;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.underlined-text {
+  width: fit-content;
+  border-bottom: solid black 2px;
+}
+
+.full-width {
+  min-width: 100%;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.smaller-text {
+  font-weight: bold;
+  font-size: 15px;
+}
