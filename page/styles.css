@@ -53,16 +53,17 @@
   display: inline-block;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: none; 
-  color: #000000; 
+  background-color: none;
+  color: #000000;
   text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.8s ease; 
+  transition: 0.8s ease;
+}
 
 .sidebar article ul li a:hover {
-  background-color: #c8c01c85; 
+  background-color: #c8c01c85;
   transition: 0.3s ease;
 }
 
@@ -116,4 +117,13 @@ h3 {
 .smaller-text {
   font-weight: bold;
   font-size: 15px;
+}
+
+.accolade-container {
+  display: flex;
+  align-items: center;
+}
+
+.accolade-text {
+  margin-left: 80px;
 }
