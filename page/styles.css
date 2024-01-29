@@ -1,5 +1,6 @@
 :root {
   --sidebar-width: 350px;
+  scroll-behavior: smooth;
 }
 
 .main {
@@ -20,10 +21,6 @@ body {
   font-family: 'Arial', sans-serif;
   padding: 0;
   line-height: 1.3;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .container {
