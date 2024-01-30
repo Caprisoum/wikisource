@@ -87,6 +87,35 @@ body {
   color: #d2aa5c;
 }
 
+#go-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#go-to-top-btn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#go-to-top-btn {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#go-to-top-btn:hover {
+  background-color: #555;
+}
+
 h2,
 h3 {
   text-align: center;
@@ -144,6 +173,11 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.article-with-image .aligleft {
+  float: left;
+  margin-right: 20px;
 }
 
 .article {
