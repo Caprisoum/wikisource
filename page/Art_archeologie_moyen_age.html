@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>L’ART ET DE L’ARCHEOLOGIE DU MOYEN ÂGE</title>
+    <script src="style/script.js" defer></script>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+ <hearder>
+    <h1>DE L’ART ET DE L’ARCHEOLOGIE DU MOYEN ÂGE</h1>
+</hearder>
+<button id="toggle-btn" class="toggle-btn">&#9664;</button>
+<div id="sidebar" class="sidebar">
+        <h2>Table des matières</h2>
+            <ol>
+                <li><a href="#architecture-grecque">I architecture</a>
+                <ol>
+                    <li><a href="#grecque">A L’architecture au plan central et au plan en croix grecque</a></li>
+                </ol>
+            </ol>
+        </li>
+        <ol>
+            <li><a href="#peinture-murale">II PEINTURE MURALE ET MOSAÏQUE</a>
+                <ol>
+                    <li><a href="#paleochretienne">A La peinture paléochrétienne</a></li>
+                    <li><a href="#mosaique-paleochretienne">B La mosaïque paléochrétienne </a></li>
+                </ol>
+            </li>
+        </ol>
+        <ol>
+            <li><a href="#sculpture">III SCULPTURE</a></li>
+            <li><a href="#neolithic-mobilier">A Le mobilier liturgique et les sarcophages</a></li>
+        </ol>
+        <h2>CHAPITRE I : CULTURES DES ROYAUMES BARBARES </h2>
+            <ol>
+                <li><a href="#barbares-architecture">I ARCHITECTURE</a></li>
+                <li><a href="#barbares-sculpture">II SCULPTURE</a>
+                    <ol>
+                        <li><a href="#sarcophages-barbares">A Les sarcophages</a></li>
+                        <li><a href="#mobilier-liturgique-barbares">B Le mobilier liturgique</a></li>
+                        <li><a href="#chapiteaux-barbares">C Les chapiteaux</a></li>
+                        <li><a href="#autels-barbares">D Les autels</a></li>
+                        <li><a href="#croix-sculptees-barbares">E Croix sculptées</a></li>
+                    </ol>
+                <li><a href="#barbares-enluminure">III ENLUMINURE</a></li>
+                <li><a href="#barbares-orfevrerie">IV ORFÈVRERIE ET ART PRÉCIEUX</a>
+                    <ol>
+                        <li><a href="#chasse-barbares">A Châsse</a></li>
+                        <li><a href="#vaisselle-barbares">B Vaisselle</a></li>
+                        <li><a href="#couronne-votive-barbares">C Couronne votive</a></li>
+                        <li><a href="#reliures-precieuses-barbares">D Manuscrits et reliures précieuses</a></li>
+                    </ol>
+            </ol>
+        <h2>CHAPITRE II : L’ÉPOQUE CAROLINGIENNE</h2>
+            <ol>
+                <li><a href="#carolingienne-architecture">1 ARCHITECTURE</a>
+                    <ol>
+                        <li><a href="#edifices-plan-central">A Les édifices de plan central</a></li>
+                        <li><a href="#edifices-plan-basilicale">B Les édifices de plan basilicale</a></li>
+                        <li><a href="#monasteres-organises">C Les premiers monastères organisés</a></li>
+                    </ol>
+                </li>
+            <ol>
+                <li><a href="#decoration-murale-carolingienne">2 LA DÉCORATION MURALE</a></li>
+                <li><a href="#mosaique-carolingienne">3 LA MOSAÏQUE</a></li>
+                <li><a href="#sculpture-carolingienne">4 LA SCULPTURE</a></li>
+            </ol>
+        <ol>
+            <li><a href="#arts-precieux-carolingienne">5 LES ARTS PRÉCIEUX</a>
+                <ol>
+                    <li><a href="#reliures-arts-precieux-carolingienne">A Reliures</a></li>
+                    <li><a href="#manuscrits-enlumines-carolingienne">B Les manuscrits enluminés</a></li>
+                </ol>
+            </li>
+        </ol>
+    </ol>
+    <h2>CHAPITRE III : L’ÉPOQUE OTTONIENNE</h2>
+    <ul>
+        <ol>
+            <li><a href="#ottomienne-architecture">1 ARCHITECTURE</a></li>
+            <li><a href="#ottomienne-peinture">2 PEINTURE</a></li>
+            <li><a href="#ottomienne-sculpture">3 SCULPTURE</a>
+                <ol>
+                    <li><a href="#sedes-sapientiae-ottomienne">A Sedes Sapientiae</a></li>
+                    <li><a href="#christ-en-croix-ottomienne">B Le Christ en croix</a></li>
+                    <li><a href="#mobilier-sculpte-ottomienne">C Le mobilier sculpté</a></li>
+                    <li><a href="#arts-precieux-ottomienne">D Les arts précieux</a></li>
+                    <li><a href="#manuscrits-enlumines-ottomienne">E Les manuscrits enluminés</a></li>
+                </ol>
+            </li>
+        </ol>
+    </ul>
+    <h2>CHAPITRE IV : ÉPOQUE PRÉ-ROMANE</h2>
+    <ol>
+        <li><a href="#pre-romane-architecture">1 ARCHITECTURE</a></li>
+        <li><a href="#pre-romane-sculpture">2 SCULPTURE</a>
+            <ol>
+                <li><a href="#chapiteaux-pre-romane">A Chapiteaux</a></li>
+                <li><a href="#linteaux-pre-romane">B Linteaux</a></li>
+            </ol>
+        </li>
+        <li><a href="#pre-romane-arts-precieux">3 ARTS PRÉCIEUX</a></li>
+        <li><a href="#pre-romane-manuscrits-enlumines">4 MANUSCRITS ENLUMINÉS </a></li>
+        <li><a href="#pre-romane-art-textile">5 ART TEXTILE</a></li>
+    </ol>
+    <h2>CHAPITRE V ART ROMAN</h2>
+    <ol>
+        <li><a href="#art-roman-architecture">1 ARCHITECTURE</a>
+            <ol>
+                <li><a href="#auvergnate">A École d’Auvergnate</a></li>
+                <li><a href="#bourguignonne-cluny">B École bourguignonne : groupe de Cluny</a></li>
+                <li><a href="#bourguignonne-vezelay">C École bourguignonne Vézelay</a></li>
+                <li><a href="#aquitaine">D École d’Aquitaine</a></li>
+                <li><a href="#provencale">E École provençale</a></li>
+                <li><a href="#grandes-eglises-pele">F Grandes églises de pèlerinage</a></li>
+                <li><a href="#episane">G École pisane</a></li>
+                <li><a href="#florentine">H École florentine</a></li>
+                <li><a href="#dômes-impériaux">I Les dômes impériaux</a></li>
+                <li><a href="#colonaise">J École colonaise</a></li>
+                <li><a href="#mosane">K Les églises cisterciennes</a></li>
+            </ol>
+        </li>
+        <li><a href="#art-roman-architecture-2">2 ARCHITECTURE</a>
+            <ul>
+                <li><a href="#chapiteaux-histories">A Chapiteaux historiés</a></li>
+                <li><a href="#sedes-sapientiae-roman">B Sedes sapientiae</a></li>
+                <li><a href="#mobilier-sculpte-roman">C Mobiliers sculptés</a></li>
+            </ul>
+        </li>
+        <li><a href="#art-roman-peinture">III PEINTURE</a>
+            <ol>
+                <li><a href="#a-fond-clair">A A fond clair et à palette ocre</a></li>
+                <li><a href="#a-fond-bleu">B A fond bleu</a></li>
+                <li><a href="#a-couleurs-vives">C A couleurs vives et à contours soulignés</a></li>
+            </ol>
+        </li>
+        <li><a href="#art-roman-vitraux">IV VITRAUX</a></li>
+    </ol>
+    <h2>CHAPITRE VI ÉPOQUE GOTHIQUE</h2>
+    <ol>
+        <li><a href="#gothique-architecture">I ARCHITECTURE</a>
+            <ol>
+                <li><a href="#gothique-style-primitif">A Style gothique primitif</a></li>
+                <li><a href="#gothique-style-classique">B Style gothique classique</a></li>
+                <li><a href="#gothique-style-rayonnant">C Style gothique rayonnant</a></li>
+                <li><a href="#gothique-style-flamboyant">D Style gothique flamboyant</a></li>
+            </ol>
+        </li>
+        <li><a href="#gothique-sculpture">II SCULPTURE</a></li>
+        <li><a href="#gothique-peinture">III PEINTURE</a></li>
+        <li><a href="#gothique-vitraux">IV VITRAUX</a></li>
+    </ol>
+</div>
+</sidebar>
+
+<main>
+    <div>
+        <article>
+            <h2>INTRODUCTION : EPOQUE PALEOCHRETIENNE</h2>
+                <figure><img src="" alt=""></figure>
+                    <p>L’époque paléochrétienne est située de 313 jusqu’à la fin du Ve siècle. Pour les historiens et les
+                    historiens de l'art, le Moyen Âge commence parfois en 313 par les Edits de Constantin : des édits qui
+                    permettent aux chrétiens d'exercer leurs cultes librement. Ce sont des édits de tolérance, les Edits de Milan.
+                    Cependant, 313 n'est pas la date de l'avènement du christianisme en tant que religion officielle. Grace à ces
+                    édits, les chrétiens peuvent s'édifier des lieux de culte, produire des œuvres d'arts à l'iconographie chrétienne,
+                    évoquant ainsi le Christ et la Bible.
+                    L'œuvre des chrétiens ressemble très fortement aux œuvres romaines. En d'autres termes, les églises
+                    chrétiennes du IVe siècle se présentent comme des édifices romains. Les sarcophages, par exemple,
+                    ressemblent très fort aux sarcophages sculptés romains, la seule différence étant l'iconographie.
+                    Le patrimoine de l'époque paléochrétienne (ca 313 - 450) est un patrimoine de type antique. Pour cette
+                    raison, certains chercheurs placent le début du Moyen Âge à la période des grandes migrations (à la fin du
+                    Ve), considérant l'avènement du Moyen Âge au VIe siècle. Un patrimoine distinct du monde antique se
+                    développe. Dans ce cours, le Moyen Âge commence au VIe siècle.
+                    </p>
+        </article>
+        <article>
+            <h3>I. ARCHITECTURE</h3>
+                <figure><img src="" alt="" class=""></figure>
+                    <p>Dans la deuxième moitié du Ier siècle, dès après la mort du Christ, des lieux de culte voient le jour. Ces
+                    lieux de culte étaient secrets. Ils se trouvaient dans les maisons les plus vastes des chrétiens, chez les chrétiens
+                    financièrement aisés. Les lieux de culte prennent place dans une architecture privée.
+                    </p>
+                <h4>A. L’architecture au plan central et au plan en croix grecque</h4>
+                        <span>Doura Europos (Syrie, rives de l’Euohrate)
+                        maison judéo-chrétienne (dite
+                        domus ecclesiae)IIIe siècle</span>
+
+                            <p>
+                            Lieu de culte parmi les plus anciens. Plan typique
+                            d'une maison romaine : différentes pièces articulées
+                            par le centre de la pièce. La maison possède un étage.
+                            L'entrée principale est en bas à droite. La pièce en haut
+                            à droite sert de lieu de culte. On y retrouve des
+                            peintures murales dont l'iconographie est biblique,
+                            avec notamment Moïse. C'est une iconographie
+                            vétérotestamentaire. Lorsque les chrétiens produisent
+                            des œuvres, l'iconographie est dans un premier temps
+                            toujours vétérotestamentaire : les premiers chrétiens
+                            se considéraient comme des juifs ayant reconnu le
+                            Messi dans Jésus. Les chrétiens mettent en relation des
+                            épisodes de la vie de Christ avec l'Ancien Testament. Moïse traversant la mer rouge est ainsi comparé à
+                            Jésus durant sa résurrection (on passe de la mort à la vie.). Cette pièce possède une baignoire située en haut
+                            de la pièce. On y devine l'emplacement de deux colonnes. Ce sont des fond baptismaux, pour que le
+                            sacrement du baptême puisse être célébrer. Le christianisme se distingue des autres religions monothéiste
+                            par le fait que la vie religieuse est rythmée par des actions symboliques, les sacrements. Les lieux de cultes
+                            servent de lieux de rassemblement pour les sacrements
+                            </p>
+                            
+                            <img>Doura Europos
+                            Plan d’une basilique romaine</img>
+
+                            <p>
+                            Pour leurs premières églises, les chrétiens s'inspirent des basiliques romaines ; des grandes constructions au
+                            centre des villes. Ce sont des lieux de rassemblement. La vie civile, politique et culturelle se joue dans les
+                            basiliques romaines. Elles se présentent avec une nef flanquée de deux bas-côtés (des nefs moins hautes),
+                            qui donnent sur le transept. Sur ce transept s'ouvre une abside semi circulaire dans laquelle on trouve un
+                            trône pour la personne exerçant le pouvoir.
+                            </p>
+                            <p>
+                            Pour leurs églises, les chrétiens vont chercher cette architecture : leurs premières églises se présentent
+                            comme les basiliques, à la différence que l'abside semi-circulaire est dédiée au prête qui représente le Christ.
+                            L'église possède un (ou plusieurs) fond baptismaux. Le baptême doit avoir lieu avant de rentrer dans l'église,
+                            les baptistères étaient donc construit à proximité de l'église. Les premières églises chrétiennes sont dites de
+                            « plan basilicale ». Ces édifices sont couverts de charpentes apparentes, parfois dissimulées par un plafond.
+                            </p>
+                            <p>Aujourd'hui, le mot "basilique" est dans l'église catholique un titre d'honneur conféré par le Pape lui-même
+                            à certaines églises. Ce ne sont donc pas des basiliques sur le plan architecturale mais sur le plan honorifique.
+                            </p>
+                            
+                <article>
+                    <figure><img src="" alt="" class=""></figure>
+                        <p><b>Basilique Saint-Pierre (époque
+                        paléochrétienne) plan intérieur</b>
+                        Basilique ample. Référence de la basilique
+                        idéal</p>
+                </article>
+                <article>
+                    <figure><img src="" alt="" class=""></figure>     
+                        <p><b>Basilique Sainte Sabine (Rome)</b>
+                        pas de transept. c'est un plan plutôt simple.
+                        La charpente n'est pas apparente. C'est une
+                        basilique très lumineuse, permise par des
+                        espaces non voutés. Les murs peuvent être
+                        largement ajourés. Cette basilique site
+                        l'architecture de l'antiquité par ses colonnes.</p>
+                    <img src="" alt="" class="">
+                        <p>Les chrétiens se fournissent parfois en matériaux sur des
+                        édifices romains abandonnés. L'intérieur de certaines basiliques
+                        ressemblent alors très fort aux basiliques romaines. Les
+                        chrétiens construisent aussi des églises de plan centrale ou des
+                        églises en croix grecs
+                        Les églises de plan centrale sont des églises de plus petite taille.
+                        Ces églises de plan centrale se présentent couvertes d'une
+                        coupole. Autour de cette partie centrale est construit un déambulatoire. Les fonds baptismaux se trouvent
+                        au milieu de l'espace central.</p>
+                </article>
+                <article>
+                    <figure><img src="" alt="" class=""></figure>
+                        <p><b>Eglise Sainte Constance</b>
+                        Autel au milieu de la pièce. Les églises de plan centrale sont, ou des
+                        baptistères, ou des églises aux martyres. Les vestiges des martyres se
+                        trouvant au milieu de l'édifice, couverts par un autel.</p>
+                    <figure><img src="" alt="" class=""></figure>
+                </article>
+                <article>
+                    <figure><img src="" alt="" class=""></figure>
+                        <p><b>Ravenne, mausolée de Galla Plaicidia (à
+                        l’origine chapelle Saint-Laurent), première
+                        moitié du Ve siècle</b>
+                        Edifice au plan en forme de croix grecque. La partie
+                        centrale est surélevée</p>
+                </article>
+    
+        <article>
+            <h3>II. PEINTURE MURALE ET MOSAÏQUE</h3>
+                <h4>A. La peinture paléochrétienne</h4>
+                    <p>Les peintures murales et mosaïques que l'on conserve pour la période paléochrétienne se trouvent dans les
+                    catacombes. Les catacombes sont des cimetières souterrains. Elles renferment de vastes peintures murales.
+                    </p>
+                    <p><b>L'iconographie de ses peintures</b> = Le Christ en croix est évoqué à l'époque paléochrétienne par une
+                    croix, présentée sans le corps du Christ. Les premiers chrétiens représentent en majorité des scènes de
+                    l'Ancien Testament, qui, symboliquement, sont comparables à des évènements de la vie du Christ. Ils
+                    représentent le Christ sous la forme d’un bon pasteur (un motif de l'Antiquité). Le bon pasteur est un berger.
+                    </p>
+                        <img src="" alt="" class="">
+                        <p>
+                        Iconographie du livre du prophète Daniel (épisode du
+                        feu) : les personnages sont représentés en geste de
+                        prière
+                        </p>
+
+                        <img src="" alt="" class="">
+                        <p>
+                        Episode de Jonas qui cherche à traverser la mer
+                        </p>
+
+                        <img src="" alt="" class="">
+                        <p>Les chrétiens représentent souvent
+                        des personnages en prière
+                        </p>
+
+                        <img src="" alt="" class="">
+                        <p>
+                        Les chrétiens représentent des
+                        iconographies plutôt antiques, ou
+                        des iconographies moins lourdes
+                        symboliquement : ici, des
+                        vendange
+                        </p>
+
+                        <p>
+                        Ce sont des peintures qui sont faites avec de la couleur, ce ne sont pas des peintures dessinées.
+                        L'iconographie est rendue exclusivement avec des couleurs. Le travail n'est pas très soigné, au profit d'un
+                        dynamisme.
+                        </p>
+            <article>
+                <h3>B. La mosaïque paléochrétienne></h3>
+                    <p>La mosaïque coute plus cher que la peinture. Les chrétiens l'utilisent avant tout comme décoration pariétale, tandis que les romains l'utilisaient avant tout pour le sol.</p>
+                    <img src="" alt="">
+                    <span>Ravenne, mausolée de Galla Placidia</span>
+                        <p>Ensemble de mosaïques célèbres, montrant un
+                        berger, un bon pasteur christianisé. Il est
+                        christianisé par la présence d'une hampe
+                        cruciforme. Il est muni d'un nimbe. Pour distinguer
+                        le Christ d'un personnage muni d'une nimbe, on
+                        place une nimbe crucifère sur le Christ. A l'époque
+                        paléochrétienne, la nimbe crucifère n'est pas encore
+                        inventée.</p>
+                    <img src="" alt="">
+                    <span>Ravenne, mausolée de Galla Placidia</span>
+                        <p>Croisé du transept représenté avec le tétramorphe. Ce sont des
+                        représentations symboliques des évangélistes. Ces quatre évangélistes
+                        sont symbolisés par des bustes d'êtres ailés, en référence à un texte du
+                        prophète Daniel. Le lion représente Marc, le taureau représente Luc,
+                        l'aigle Jean et l'ange Mathieu. Les Evangiles sont des traces de la vie du
+                        Christ.</p>
+            </article>
+        <article>
+            <h3>III. SCULPTURE</h3>
+                <h4>A. Le mobilier liturgique et les sarcophages</h4>
+                    <p>Les premiers chrétiens sont peureux vis à vis des statues. Les romains faisaient des statues des Dieux, ils les
+                    honoraient et considéraient que les statues "étaient" ces Dieux. Ces statues étaient des idoles. Les chrétiens
+                    ont peur de la statuaire car ils ne veulent pas d'idole dans leur religion. Ils se tournent alors vers le relief.</p>
+                <span>Les reliefs sont communs au mobilier liturgique : on sculpte des reliefs sur les sarcophages.</span>
+        </article>
+        <article>
+            <figure><img src="" alt=""></figure>
+            <span>Sarcophage de Junius Bassus</span>
+                <p>Sur l'un des côtés du sarcophage, il a fait représenter un
+                mixte entre l'Ancien et le Nouveau Testament. Dans l'axe
+                principal est représenté l'entrée du Christ à Jérusalem. Les
+                apôtres Pierre et Paul sont représentés (même si Paul n'a
+                pas connu le Christ). Les autres scènes sont issues de
+                l'Ancien Testament.</p>
+                <p>Les personnages sont représentés comme dans
+                l'Antiquité romaine. Le style est antiquisant.</p>
+        </article>
+            <figure><img src="" alt=""></figure>
+            <span>Sarcophage de Baebia Hertofilia (Musée du
+            Vatican)</span>
+                <p>Médaillon représente les personnes défuntes. On
+                retrouve l'épisode (gauche) de Jonas. La scène à droite
+                représente le partage des pains, raconté dans les Evangile</p>
+        </article>
+            <figure><img src="" alt=""></figure>
+            <span>Sarcophage des époux en Arles</span>
+                <p>Sarcophage paléochrétien, on y représente les personnes
+                défuntes au centre. En dessous est représenté l'adoration
+                des mages, avec une vierge à l'enfant. Les personnages
+                sont habillés avec le vêtement des phrygiens. Ce sont
+                donc des sages. Ils reconnaissent le Christ malgré qu'ils
+                viennent d'une autre culture.</p>
+        </article>
+            <figure><img src="" alt=""></figure>
+            <span>Sarcophage du Bon Paster</span>
+                <p>Le style à tendance à être simplifié. Le chiffre trois
+                (pasteurs) est une évocation de la sainte trinité. Dieu est
+                révélé de trois manières : le Christ, le Père et le Saint
+                Esprit.</p>
+                <p>Les personnages sont représentés comme dans
+                l'Antiquité romaine. Le style est antiquisant.</p>
+        </article>
+            <figure><img src="" alt=""></figure>
+            <span>Sarcophage de Junius Bassus</span>
+                <p>Sur l'un des côtés du sarcophage, il a fait représenter un
+                mixte entre l'Ancien et le Nouveau Testament. Dans l'axe
+                principal est représenté l'entrée du Christ à Jérusalem. Les
+                apôtres Pierre et Paul sont représentés (même si Paul n'a
+                pas connu le Christ). Les autres scènes sont issues de
+                l'Ancien Testament.</p>
+        </article>
+            <figure><img src="" alt=""></figure>
+            <span>Le Bon Paster</span>
+                <p>(Vatican) défie la règle de la peur des statues, Il arrive qu’on
+                représente le Christ sous la forme du Bon Paster. Il a un air antique et est vécu à
+                l’antique.</p>
+        </article>
+    </div>
+    <div>
+        <article>
+            <h2>CHAPITRE I : CULTURES DES ROYAUMES BARBARES</h2>
+                <figure>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </figure>
+                    <p>Epoque de grandes migrations de
+                    population. Autrefois, on qualifiait cette
+                    époque de « l’époque des grandes
+                    invasions ». Des gens débarquent en
+                    masse des régions de l’Est de l’Europe
+                    actuelle pour s’installer en Occident. Ils se
+                    mêlent à la population des autochtones
+                    européens et importent une influence sur
+                    l’Europe. C’est pourquoi on parle
+                    d’époque de « migration » et non
+                    « d’invasion ».</p>
+                    <p>C’est l’époque au cours de laquelle de
+                    nouvelles entités culturelles naissent. De
+                    nouvelles dynasties, de nouvelles
+                    structures politiques (mérovingiens,
+                    wisigoths, ostrogoths..)</p>
+                    <p>>Au VIIe siècle, les populations n’ont plus rien de barbare. Autrefois, on considérait que ces peuples n’avaient
+                    pas de lien entre eux. Il y aurai plusieurs cultures différentes : Or, ces différentes cultures possèdent
+                    beaucoup de points communs, notamment dans la sculpture. <b>Il n’est pas pertinent de distinguer les
+                    différents royaumes germaniques</b>.</p>
+            <article>
+                <h3>I. ARCHITECTURE</h3>
+                    <p>L’architecture de l’époque des grands migrations est conservée en majorité dans le sud de l’Europe</p>
+                    <span>Poitiers, baptistère Saint-Jean</span>
+                        <p>(Remontant au début du Ve siècle mais repensé au
+                        IVe et décoré et agrandi au VIe siècle). Souvent, les
+                        édifices de plan central sont des baptistères. A
+                        Poitiers, le plan central est en forme de croix grec.
+                        (+ photo du plan). C’est une salle longue avec un
+                        fond baptismaux. Elle est munie de trois absides.
+                        Cet édifice site l’antiquité par son architecture. Il est
+                        globalement présenté comme un temple,
+                        notamment avec ses corniches ou ses pignons. Son
+                        appareil est mixte, ce n’est pas seulement de la pierre
+                        mais aussi de la brique. Les briques sont très plates, comme
+                        en antiquité. On observe des motifs de chapiteaux qui citent
+                        les motifs de l’antiquité. Au centre, le fond baptismaux. Les
+                        murs sont articulés par des arcades qui sont posés sur des
+                        colonnes a chapiteaux. Les murs sont rythmés par des
+                        colonnes.</p>
+                </article>
+                <article>
+                    <img src="" alt="" class="">
+                        <span>Grenoble, crypte Saint-Laurent (VIe siècle)</span>
+                            <p>L’un des plus anciens édifices de l’époque des grandes migrations.
+                            Consiste en la crypte d’une église qui a aujourd’hui disparue. Les
+                            murs sont rythmés par des colonnes, qui supportent des arcades.</p>
+                        <img src="" alt="" class="">
+                        <span>Vienne (France) St Pierre (fin du Ve – début VIe siècle</span>
+                            <p>Vaste édifice de l’époque des grandes migrations. Le plan est simple,
+basilical. Allure des grandes églises paléochrétiennes. Arcades
+reposant sur des colonnes situées devant le mur</p>
+                        <img src="" alt="" class="">
+                        <span>San Pedro de la Nave (VIIe – VIIIe)</span>
+                            <p>Édifice plus récent. Elle domine l’agglomération. L’édifice est
+                            exclusivement en pierre appareillée, taillée de manière précise, de
+                            sorte que les joints entre les différents blocs soient les plus fins
+                            possibles. C’est une église au plan basilicale. La nef est flanquée de
+                            deux bas-côté. Pas d’abside mi-circulaire mais un chevet plat à la fin
+                            du chœur. Arcs en plein cintre, arc en fer à cheval, arc outrepassé.</p>
+                            <p>Les chrétiens s’inspirent pour leurs églises de l’architecture de la civilisation de l’Islam. Pour désigner
+l’architecture à la croisée de la chrétienté et de l’Islam, on parle d’architecture « mozarabe »</p>
+                        <img src="" alt="" class="">
+                        <span>Palais de Naranco (terminé en 848, architecture
+                        wisigothique antérieure)</span>
+                        <img src="" alt="" class="">
+                        <span>Ravenne, mausolée de Théodoric
+                        (ostrogoths)</span>
+                        <img src="" alt="" class="">
+                        <span>Ravenne, mausolée de Théodoric
+                        (ostrogoths)</span>
+                        <img src="" alt="" class="">
+                        <span>Ravenne, mausolée de Théodoric
+                        (ostrogoths)</span>
+                        <img src="" alt="" class="">
+                        <span>Ravenne, mausolée de Théodoric
+                        (ostrogoths)</span>
+Grenoble, crypte Saint-Laurent (VIe siècle)
+L’un des plus anciens édifices de l’époque des grandes migrations.
+Consiste en la crypte d’une église qui a aujourd’hui disparue. Les
+murs sont rythmés par des colonnes, qui supportent des arcades.
+Vienne (France) St Pierre (fin du Ve – début VIe siècle)
+Vaste édifice de l’époque des grandes migrations. Le plan est simple,
+basilical. Allure des grandes églises paléochrétiennes. Arcades
+reposant sur des colonnes situées devant le mur.
+San Pedro de la Nave (VIIe – VIIIe)
+Édifice plus récent. Elle domine l’agglomération. L’édifice est
+exclusivement en pierre appareillée, taillée de manière précise, de
+sorte que les joints entre les différents blocs soient les plus fins
+possibles. C’est une église au plan basilicale. La nef est flanquée de
+deux bas-côté. Pas d’abside mi-circulaire mais un chevet plat à la fin
+du chœur. Arcs en plein cintre, arc en fer à cheval, arc outrepassé.
+
+C. Mobiliers sculptés
+Pupitre d’Alpirsbach en Forêt Noire
+La colonne du pupitre est les quatre évangélistes, qui portent le pupitre
+proprement dit. Sur ce pupitre, des reliefs qui représente les symboles
+des quatre évangélistes. La polychromie est conservée
+Retable de la descende de croix
+Époque où l’on commence à fabriquer des retables (dalle de pierre
+qu’on place à l’arrière de l’autel de l’église, là où l’eucharistie est
+célébrée. Jusqu’à dans les années 60, les prêtes se trouvaient célébrer
+dos aux fidèles.
+III. PEINTURE
+La plupart des églises romanes étaient peintes ; les murs étaient enduits, on y peignait des scènes
+narratives (des scènes bibliques, du nouveau testament…) ou alors des scènes dogmatiques (des scènes
+rendant compte d’une vérité de foi). Il y a trois grands groupes :
+➢ Les peintures murales à fond clair et à palette ocre
+➢ Les peintures murales à fond bleu
+➢ Les peintures murales à couleurs vives et à contours soulignés
+A. A fond clair et à palette ocre
+La chapelle sixtine de l’art roman
+La palette est globalement ocre. Toutes les possibilités de l’ocre
+sont exploitées. La palette est dominée par le jaune, le brun, le
+blanc cassé. Tout ça est relevé par d’autres couleurs : par du bleu
+et parfois un peu de vert. L’ocre et le bleu sont des pigments
+minéraux. Le vert est un pigment végétal
+2023 - 2024 Marie Dumont
+55 | P a g e
+Abside de lla chapelle de Berzé-la-Ville =
+Désormais dans une ferme. Autrefois,
+dépendant de l‘abbaye de Cluny.
+San Angelo in Formis (près Capoue)
+B. A fond bleu
+C. A couleurs vives et à contours soulignés
+Tahull (Pyrénées espagnole, côté catalan)
+Peintures originales déplacées au
+musée catalan de Barcelone = ces
+peintures sont très vives, presque
+qualifiées de fluo. Tous les motifs
+représentés sont définit par un
+dessin fait de lignes noires très
+épaisses. Le sens du dessin est bien
+assurée.
+(cf. powerpoint → Il traite pas de la peinture de manuscrit car en retard)
+Tavant (France) = La luxure est de représenté
+avec une femme qui n’a pas les cheveux attachés.
+La poitrine est découverte. Elle se perse la poitrine
+et des serpents lui mordent les tétons
+Léon (Espagne) = compositions lisibles, qui se détachent bien du fond.
+Annonciation au berger.
+2023 - 2024 Marie Dumont
+56 | P a g e
+IV. VITRAUX
+A l’époque romane, il arrive qu’on place des vitraux dans les églises, à motif narratifs ou
+décoratifs. Cependant, on a presque rien conservé.
+Christ de Wissembourg (Strasbourg, Musée de l’œuvre
+Notre-Dame) 1030-1070
+De petite taille, entre 10 et 20 centimètres de circonférence
+Pavement du dôme d’Otrante
+Il arrive que les églises soient munies de vitraux.
+Habituellement, on associe le vitrail à l’époque
+gothique, mais ce n’est pas le cas. Une technique est
+inventée, pour qu’aujourd’hui, le vitrail soit
+conservé lorsqu’il est extrait du sol. Les scènes
+évoquent les signes du zodiaque et les différents
+mois de l’année
+(cf. powerpoint → Il traite pas l’orfèvrerie car en retard)
+A l’époque romane, on invente plus vraiment d’objet en orfèvrerie, mais l’art est maîtrisé comme jamais.
+Toutes les techniques d’orfèvrerie aujourd’hui connues sont déjà exploitée à l’époque romane.
+Un autel portatif (quelques dizaines de centimètres de long sur 20 centimètres de large, épais comme une
+boîte à chaussure). Un phylactère est un médaillon suspendu, par exemple, au-dessus d’un autel d’une église.
+Dedans, il y a une relique. La plupart ont perdu leurs reliques.
+2023 - 2024 Marie Dumont
+57 | P a g e
+CHAPITRE VI. ÉPOQUE GOTHIQUE
+L’époque gothique comment au XIIIe siècle, jusqu’au XVe siècle. Il faut cependant aller au-delà des
+frontières conventionnelles ; les premières expériences gothiques sont menées bien avant, déjà en Europe
+et en Angleterre. Cette partie commence donc vers 1150 et se termine vers 1550. Dans la première moitié
+du XVIe siècle, il arrive encore qu’on construire des édifices gothiques. Par exemple, le brabant est très
+riche en édifices gothiques. Géographiquement, le gothique s’étend partout en Europe occidentale,
+jusqu’en Suède, en Lituanie, en Estonie… Très vite, l’Antiquité redevient à la mode, dès le XIIIe siècle en
+Italie.
+I. ARCHITECTURE
+Cathédrale Notre-Dame
+Incendie des charpentes en 2019. Pratiquement toute la charpente
+a brulée, mais le reste de l’église est conservée. Toutes les voûtes
+sont conservées, sauf une, car la flèche la transpercée durant
+l’incendie.
+L’architecture gothique est une architecture révolutionnaire. Tout
+s’inscrivait dans une longue histoire : l’invention de l’architecture
+gothique bouleverse totalement l’invention de l’architecture.
+Jusqu’à l’époque romane, l’architecture est pensée comme un
+équilibre entre les masses. Les masses murales doivent se composer
+les unes des autres. Jusqu’à l’époque romane, l’architecture est une
+composition sur la bases de différentes masses. L’architecture
+gothique est totalement différente : c’est un squelette, non plus
+pensée à partir des masses murales mais comme une construction d’ossements. A l’intérieur,
+l’architecture gothique met en avant des nombreux arcs. C’est tout un squelette d’arcs qui, même sur deux
+niveaux, soutiennent le vaisseaux principales. L’architecture gothique laisse entrer la lumière. L’architecture
+gothique est montée très haute avec des arcs boutants, qui sont construit par des cintres de bois.
+Chacune des parties d’une voute s’appelle un voutain. Lorsqu’une église
+gothique n’est plus entretenue, le squelette disparait en dernier. Les
+cathédrales gothiques sont généralement construites sur plusieurs siècles.
+Les plus anciens dessins d’architecture conservés sont gothiques. Parfois,
+on dit que c’est à l’époque gothique que l’architecte est inventé. Tout d’un
+coup, il y a des personnalités de maîtres d’œuvres qui apparaissent,
+qui avaient manifestement une certaine réputation à leur époque.
+I. Style gothique primitif (XIIe)
+II. Style gothique classique (1180 – 1250)
+III. Style gothique rayonnant (1240 – 1450)
+IV. Style gothique flamboyant (1450 – 1550)
+- Les églises sont souvent à quatre niveaux
+- Disparition de la tribune
+- Colonnes cantonnées
+2023 - 2024 Marie Dumont
+58 | P a g e
+A. Style gothique primitif
+Morienval, abbatiale XII : le chevet de l’abbatiale semble roman. Les ogives ici sont grossiers
+Saint-Denis, abbatial (aujourd’hui cathédrale) 1130
+Encore très romane. La partie gothique est le déambulatoire. Une
+partie est gothique rayonnant car elle a été retouchée. Dans ce
+déambulatoire, on est en plein dans le XIIe siècle
+Cathédrale de Laon, vers 1145
+La croisée du transept est imposante. L’architecture est
+composée si non des arcs boutants, des contreforts. C’est
+une église gothique par excellence. Les tours sont habitées
+par des bœufs. Le chapitre des chanoines grandissant, on a
+du agrandir l’églises et donc de raser l’abside pour poursuivre
+l’édifice. Généralement, l’élévation est en quatre niveaux : un
+niveau de tribune, un triforium, les fenêtres hautes… Le
+supports sont généralement des colonnes monocylindriques.
+Les baies (fenêtres) sont souvent dépourvues de remplages
+(juste le trou de la fenêtre).
+Chartres (dans le Beauce) cathédrale Notre-Dame
+Célèbre édifice gothique primitif. A Chartres, la façade est un
+vestige antérieur du gothique classique. En 1194, un incendie
+ravage l'église. L'édifice gothique est donc derrière cette
+façade. Les arcs boutants sont sur deux niveaux. A l'intérieur
+de l'édifice, on constate bien l'élévation de type A + B + A.
+Popularisation de la voute quadripartites. Pour chaque
+travée, la baie est divisée en deux.
+B. Style gothique classique
+Quelles sont les caractéristiques du style gothique classique ? L'élévation est désormais à trois niveaux,
+il n'y a plus de tribune (grande arcane, triforium et fenêtre haute = 3 niveaux). En général, le niveau des
+grandes arcanes et des fenêtres hautes sont de même hauteur (A + B + A). Le triforium est aveugle Les
+remplages divisent la baie en deux lancettes. Les supports sont désormais cantonnés de quatre colonnettes.
+2023 - 2024 Marie Dumont
+59 | P a g e
+Reims (en Champagne) cathédrale Notre-Dame
+Sur les contreforts, viennent s'appuyer des arcs boutants qui viennent
+soutenir la nef principale : squelette de l'ordre de l'échafaudage qui
+soutient la structure. Les colonnes cantonnées sont bien visibles à
+l'intérieur de l'édifice.
+Amiens Cathédrale Notre-Dame
+Très haute et très grande. Les voutes montes à 40m de haute.
+Construite entre 1220 et 1269. Le vaisseau central est
+soutenu par les arcs boutants. (def polylobe : L'adjectif
+polylobé est un néologisme s'appliquant à des feuilles
+(botanique) ou à des arcs (architecture) présentant
+plusieurs lobes.). Cette cathédrale est commencée en style
+gothique classique et est terminée en style gothique
+rayonnant.
+C. Style gothique rayonnant
+On construit en style gothique rayonnant très longtemps, pratiquement jusqu'au XVe siècle.
+➢ l'élévation reste A B A
+➢ les voutes sont systématiquement des voutes quadripartie
+➢ le triforium est ajouré (et non plus aveugle) ce qui permet à + e lumière d'entrer
+➢ les fenêtres hautes sont divisées en plus grands nombres de lancettes
+➢ les piliers ne sont plus cantonnés mais fasciculés
+Bourges Cathédrale St-Etienne
+Cathédrale à part, qui développe des forces
+propres à elle, elle est difficilement classable. Elle
+n'appartient à aucun des styles
+2023 - 2024 Marie Dumont
+60 | P a g e
+Saint-Denis abbatiale
+Un des chantiers les plus anciens du style rayonnant. La nef, le transept
+et le chœur de l'abbatiale sont refait à partir de 1231 en style gothique
+rayonnant. Le triforium est ajouré.
+Paris, Notre-Dame :
+A partir de 1250, il est décidé de retravailler Notre Dame de Paris en style gothique rayonnant. La façade du
+transept est entièrement refaite à partir de 1250. Le triforium est ajourné.
+Troyes Cathédrale :
+Dans le chœur, les trempages ne sont pas gothique rayonnant mais de gothique classique.
+Beauvais, cathédrale Saint-Pierre 1225
+Il est question à partir de1284 de construire un édifice très
+grand et très haute. L'église va en réalité s'écroulée, après
+avoir monté à 50m de haut. Il y a plein de contrefort qui se
+succèdent à intervalle régulier. La plupart des édifices sont
+muni de barres de fer ceinturant ces églises, pour augmenter
+leur stabilité.
+Paris, Sainte-Chapelle 1241 – 1248
+Edifice à part, car c'est une chapelle privée. C'était la chapelle du roi de France,
+qui se trouve en plein cœur du Paris actuelle, à quelques rues de Notre-Dame.
+C'est une chapelle double à deux niveaux. Cet édifice est proportionnellement
+très élevé, sans arc boutant, les contreforts étant très importants. On accès à
+cet espace seulement les membres de la famille royale.
+2023 - 2024 Marie Dumont
+61 | P a g e
+D. Style gothique flamboyant
+- Petite flamme en motif
+- La voute était à réseau, complexe : on multiplie les ogives
+Vendôme, abbatiale de la Trinité (1498 – 1508)
+On rajoute des petits crochets sur les arcs boutants. En ce qui concerne
+l'élévation, il n'y a plus vraiment de règle. On cherche à créer un œuvre
+différente de tout ce qui a été fait jusqu'à maintenant. Présence d'arc surbaissé.
+2023 - 2024 Marie Dumont
+62 | P a g e
+II. SCULPTURE
+➢ Mouvement de libération de la sculpture par rapport aux règles établies au roman (horor vacui, loi
+du cadre, ...).
+➢ Invention de nouveaux sujets narratif et dogmatique
+➢ Les scènes se multiplient au fur et à mesure des âges sur la même surface.
+➢ Trois styles de rondes-bosses :
+o Style 1200 (1185-1240) : les statues semblent réellement tout juste sorties de l’Antiquité.
+o Style amiénois (1240-1300) : plus simple, les statues semblent faites à la chaîne, les visages
+et drapeau se répètent. En réalité, on pense que cela est dû à l’organisation du chantier, les
+sculpteur se donnaient des taches, un spécialiste de visage, un spécialiste de drapé, un travail
+quasiment à la chaîne. Typique d’Amiens, d’où le nom de style.
+o Style rémois (corps déhanchés, arqués, visage particulier ronds, ridés. L’un des plus célèbre
+exemple est l’ange au sourire de Reims, d’où le nom du style.
+Portail Royal de Chartres (XIIe)
+Tympan encore très romain mais déjà plus de respiration, et le
+style est plus réaliste. Statue colonne sur l’ébrasement de la porte,
+mais reste réaliste même si elle est allongée. Elles sont encore un
+peu soumises à la loi du cadre // St Loup de Naud près de
+Provins (1160 )
+Senlis (1153 – 1160)
+Espace vide qui laisse de la respiration ; Sujet nouveau, le
+couronnement de la vierge par le christ, tous deux représentés à
+la même taille. Première fois que cette scène est représentée,
+inventée là?. Ce motif connaîtra un succès important et perdurera
+plusieurs siècles. ; Détail de la dormition de la vierge, l’âme est
+emportée par des anges et la vierge est endormie sur un lit. ; Détail
+à droite, l’assomption, c’est carrément le corps qui est emporté. ;
+Sur l’ébrasement, les statues ont des carrures qui sorte de la
+colonne, c’est la fin des statues colonne. ; Souvent les statues de
+l’ébrasement sont des perso vétérotestamentaires, qui ont
+annoncé la naissance du christ et la vierge.
+Chartres porte centrale du bras Nord du transept (XII – XIIIe )
+Portail très chargé avec couronnement de la vierge, dormition et assomption. ;
+Apôtres et perso vétérotestamentaires ; On a dit que tout le savoir de l’époque
+était représenté dans les ensemble sculpté, théologique mais aussi historique,
+philosophique, botanique, … ; Détail des pieds d’Issaï avec un perso qui dort. Il
+s’appelle Jessé et est en train de songer. L’hébreu est une langue à consonne ce
+qui fait que Issaï s’écrit de la même manière que Jessé, cela démontre que
+l’architecte connaissait l’hébreu et l’a montré ici par ce simple symbole. ; Portail
+2023 - 2024 Marie Dumont
+63 | P a g e
+de gauche de la même façade, scènes de l’enfance du christ. ; Détail de marie et Élisabeth qui
+communiquent ; Les voussures du portail jouent aussi un rôle important, une multitude de petites scènes y
+sont dissimulées. Dieu le père en train de façonner un astre et les anges les placent dans le ciel. Séparation
+des eaux du bas et du haut, la création des végétaux, des quadrupède, façonnement de l’être humain à partir
+de glaise, et enfin image de Dieu et de l’être humain côte à côte, avec le même visage car Dieu l’a créé à son
+image.
+Portail de la vierge de Notre Dame de Paris (1210 – 1220)
+Couronnement ; dormition ; prophètes entourant le baldaquin des tables
+de la loi. ; Le trumeau montre la vierge à l’enfant (complètement différente
+des sedes sapientiae, Marie est debout avec Jésus vraiment enfant dans les
+bras).
+Portail occidental d’Amiens (1220 – 1230)
+Jugement derniers (résurrection de mort et
+pesée ; parte d’un côté ou de l’autre ; seconde
+parousie). ; Les lumières montrent les
+couleurs originelles. Les portails sont
+polychromes, souvent avec des couleurs très
+vives. ; Détail du beau Dieu d’Amiens sur le
+trumeau de la porte principale occidentale. ;
+Porte de droite sur la façade copie de la porte
+de Notre Dame (pt précédent). ; Embrasure,
+les rois mages avec beaucoup de répétition
+dans les visages et les vêtement (entre les rois de gauche et de droite, même drapés), typique du chantier
+d’Amiens. Seul la Madeleine sur la droite dénote, car elle est faite différemment. ; Statues sur les contrefort,
+on remarque très bien cette répétition des visages, ils ont la même tête. ; Portail de la vierge dorée ou de St
+Honoré (XIII) : beaucoup de scène différentes sur le tympan, vierge à l’enfant en style rémois.
+Portail principal occidental de Reims
+Les trois style en un ébrasement (de
+droite à gauche) : la Vierge et Elisabeth
+en style 1200, la Vierge regardant l’ange
+en style amiénois, puis l’ange au sourire
+en style rémois
+</main>
+</div> 
+
+</body>
+</html>
